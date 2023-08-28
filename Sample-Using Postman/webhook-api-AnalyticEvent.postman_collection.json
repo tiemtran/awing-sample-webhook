@@ -1,0 +1,37 @@
+{
+	"info": {
+		"_postman_id": "56e93986-d861-4114-9e73-60904df2a282",
+		"name": "webhook-api-AnalyticEvent",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "/Analytic/Event",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"eventLabel\": \"survey\", \"eventObject\": \"{\\\"View1.Question1\\\":[\\\"A\\\"]}\", \"placeId\": \"5504693026866563256\", \"domainId\": \"4913100144472996590\", \"campaignId\": \"5354837572843700538\", \"macAddress\": \"58-FB-84-3F-9B-98\", \"apMac\": \"B4-C7-99-6B-9A-64\", \"sessionId\": \"2a8a9cca-27b3-4a29-a90b-0639ace2e949\", \"createdDate\": \"2022-09-27T09:45:29.436968300Z\" }",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://{{domain_dev}}/Analytic/Event",
+					"protocol": "http",
+					"host": [
+						"{{domain_dev}}"
+					],
+					"path": [
+						"Analytic",
+						"Event"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

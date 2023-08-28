@@ -1,0 +1,37 @@
+{
+	"info": {
+		"_postman_id": "11aa862d-0292-4203-925f-15a9612ae4c9",
+		"name": "webhook-api-AnalyticView",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "/Analytic/View",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"PlaceId\":\"4847170640565024138\",\"DomainId\":\"5020131619934525363\",\"CampaignId\":\"5277652576147946980\",\"CampaignType\":\"BannerStatic\",\"MacAddress\":\"58-FB-84-3F-9B-80\",\"ApMac\":\"80-7F-07-3D-5B-67\",\"PageCode\":\"login\",\"SessionId\":\"ed35f8f2-f242-4f6b-a3a4-dcffbfdea7d8\",\"Url\":\"https://connect.awing.vn/login?client_mac=58-FB-84-3F-9B-80&ap_mac=80-7F-07-3D-5B-67&hs_server=10.11.12.2&Qv=it_qpmjdz=Tbocbz_UTO@bbb_qpmjdz=Tbocbz_UTO@dmjfou_njou=537593387@dmjfou_nbd=69.GC.95.4G.:C.D1@ttje=BXJOH!Xj.Gj@bq_nbd=C5.D8.::.7C.:B.75\",\"UserAgent\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36\",\"CreatedDate\":{\"Seconds\":\"1664274715\",\"Nanos\":658605300}}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://{{domain_dev}}/Analytic/View",
+					"protocol": "http",
+					"host": [
+						"{{domain_dev}}"
+					],
+					"path": [
+						"Analytic",
+						"View"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
